@@ -84,3 +84,9 @@ cm = float(input("輸入身高")) / 100
 kg = int(input("輸入體重"))
 Bmi = kg / (cm * cm)
 print(Bmi)
+if Bmi < 18.5:
+    print("體重過輕")
+elif Bmi <= 18.5 and Bmi < 24:
+    print("體重正常")
+else:
+    print("體重過重")
