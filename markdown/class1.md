@@ -8,6 +8,10 @@
 
 #### 這裡是 H4
 
-這是程式區塊
-python
+# 這是程式區塊
+
+```python
 print("Hello World") # 可以顯示文字
+```
+
+---
