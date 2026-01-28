@@ -34,4 +34,3 @@ if number % 2 == 0:
     st.markdown(f"你輸入的是**偶數**:{number}")
 else:
     st.markdown(f"你輸入的是**奇數**:{number}")
-import streamlit as st
