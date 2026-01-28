@@ -34,13 +34,4 @@ if number % 2 == 0:
     st.markdown(f"你輸入的是**偶數**:{number}")
 else:
     st.markdown(f"你輸入的是**奇數**:{number}")
-
 import streamlit as st
-
-st.title("Number Pyramid")
-a = st.number_input("Height", min_value=1, step=1)
-for i in range(1, int(a) + 1):
-    line = ""
-    for j in range(i):
-        line += str(i)
-    st.write(line)
